@@ -8,7 +8,7 @@ Args:
 Return
     The calculated area of the rectangle
 '''
-def calculate_area(length, width):
+def calculate_area(length: float, width: float) -> float:
     return length * width
 
 ''''
